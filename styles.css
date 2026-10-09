@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'Gagalin';
+  src: url('fonts/Gagalin-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body{
+    background-color: #3586D4;
+}
+h1{
+    color: white;
+    font-weight: normal;
+    font-family: Gagalin, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+.container_bomb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin-right: 45px;
+}
+.botones button{
+    padding: 8px 38px;
+    font-size: 37.5px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px;
+    color: white;
+    width: 180px;
+}
+#on{
+    background-color: #7ED957;
+    border: none;
+;
+}
+#off{
+    background-color: #ff3131;
+    border: none;
+}
+.contador{
+    display: flex;
+    background-color: #f0f0f0;
+    border: none;
+    padding: 1px 30px;
+    border-radius: 50px;
+    gap: 0px;
+    flex-direction: column;
+}
+.contador h1{
+    color: black;
+    font-family: Open-Sauce, sans-serif;
+    font-size: 26.5px;
+    font-weight: bold;
+}
+.contador h2{
+    text-align: center;
+    background-color: #99ACff;
+    font-family: sans-serif;
+    border: none;
+    padding: 30px 50px;
+    border-radius: 50px;
+}
+.container_bomb img{
+    width: 320px;
+    height: auto;
+    object-fit: contain;
+    transition: opacity 0.3s ease;
+}
+.log{
+    background-color: white;
+    padding: 15px;
+    border-radius: 50px;
+    height: 480px;
+    width: 380px;
+    margin-left: 50px;
+}
+.log h1{
+    color: black;
+    font-family: sans-serif;
+    font-size: 26.5px;
+    text-align: center;
+    background-color: #99ACff;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.log h2{
+    overflow-y: auto;
+    height: 365px;
+    width: 370px;
+    border-radius: 50px;
+    font-weight: normal;
+    font-family: sans-serif;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+}

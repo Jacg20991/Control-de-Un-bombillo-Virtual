@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+    <link rel="stylesheet" href="styles.css">
+    <head>
+        <title>Control de un bombillo</title><!--Titulo de la pagina-->
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body>
+    <h1>CONTROL DE UN BOMBILLO VIRTUAL</h1><!--Titulo-->
+        <div class="container_bomb">
+            <img src="img/bomboff.png" id=imgbomb alt="bombillo"><!--img-->
+            <div class="botones"><!--div.botones-->
+                <button class="on" id="on">ON</button><!--btn--><!--class para css y id para js-->
+                <button class="off" id="off">OFF</button><!--btn.off-->
+            </div>
+            <div class="contador">
+                <h1>CONTADOR</h1>
+                <h2 id="contador">00</h2>
+            </div>
+            <div class="log">
+                <h1>Historial</h1>
+                <h2 id="console"></h2>
+            </div>
+        </div>
+        <script src="script.js"></script><!--Conectar con el js (script)-->
+    </body>
+</html>
